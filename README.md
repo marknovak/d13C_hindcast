@@ -1,0 +1,2 @@
+# d13C_hindcast
+Code for hind-casting delta-13C values of formalin-fixed small mammal hair samples.

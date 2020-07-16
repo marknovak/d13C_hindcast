@@ -1,0 +1,45 @@
+Museum: Location of specimen (Natural History Museum Utah, formerly Utah Museum of Natural History).
+
+Catalog_Number: First specimen identifier.
+
+Collector_Number: Second specimen identifier.
+
+Species: Specimen's species name.
+
+Source: Specimen type referring to field-preserved ("field") or lab-preserved ("experiment").
+
+Fixation_days: Estimated minimum or actual number of days each specimen spent in formalin prior to being transferred to permanent storage in ethanol.
+
+Storage_years: Number of years each specimen had been in ethanol storage at the time of hair sampling.
+
+
+d13C_Run1: δ13C sample value of first run.
+
+d13C_sd_Run1: Standard deviation of the standard-reference carbon material for Run1.
+
+d13C_sd_n_Run1: Number of measurements of standard-reference carbon material for Run1.
+
+
+d13C_Run2: δ13C sample value of second run (applies only to 'Experimental' specimens (see below).
+
+d13C_sd_Run2: Standard deviation of the standard-reference carbon material for Run2.
+
+d13C_sd_n_Run2: Number of measurements of standard-reference carbon material for Run2.
+
+
+d15N_Run1: δ15N sample value of first run.
+
+d15N_sd_Run1: Standard deviation of the standard-reference carbon material for Run1.
+
+d15N_sd_n_Run1: Number of measurements of standard-reference carbon material for Run1.
+
+
+d15N_Run2: δ15N sample value of second run (applies only to 'Experimental' specimens (see below).
+
+d15N_sd_Run2: Standard deviation of the standard-reference carbon material for Run2.
+
+d15N_sd_n_Run2: Number of measurements of standard-reference carbon material for Run2.
+
+
+***
+Due to autoloader and combustion malfunctions, some samples carbon or nitrogen values were not accurately measure. The second run enabled us to complete our dataset and to measure a number of individual’s δ13C values a second time across multiple timepoints. Having two measurements of the same individual at the same timepoint gave us greater ability to evaluate the variation between runs at the same lab on the same Stable Isotope Mass Spectrometer (SIMS).

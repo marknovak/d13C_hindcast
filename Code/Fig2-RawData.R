@@ -13,7 +13,12 @@ load(file = '../Results/ProcessedData.Rdata')
 dat <-
   dat[order(dat$EStor), ] # order by EStor to avoid need to do so later
 
-pdf('../Results/Figures/Fig2-RawData.pdf', height = 5, width = 6)
+tiff('../Results/Figures/Fig2-RawData.tiff',
+     height = 120,
+     width = 150,
+     units = 'mm',
+     res = 600
+)
 
 p<-layout(matrix(c(1, 2, 3, 4, 6, 5),
             ncol = 2, byrow = FALSE),

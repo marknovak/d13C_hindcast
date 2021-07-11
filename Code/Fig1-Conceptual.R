@@ -14,9 +14,12 @@ mod3bar <- function(x) {
 }
 
 
-pdf('../Results/Figures/Fig1-Conceptual.pdf',
-    height = 5,
-    width = 3)
+tiff('../Results/Figures/Fig1-Conceptual.tiff',
+    height = 150,
+    width = 80,
+    units = 'mm',
+    res = 600
+    )
 par(
   mfrow = c(3, 1),
   mar = c(2, 4.5, 1, 1),

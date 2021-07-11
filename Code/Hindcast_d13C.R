@@ -6,6 +6,9 @@
 ######################################################################
 rm(list = ls())
 
+library(nlme)
+library(lme4)
+
 # load functions for hindcasting
 source(file = 'Hindcast_functions.R')
 
@@ -107,11 +110,14 @@ fdat.preds <- merge(fdat[, c('SpecimenID',
 fill.cols.95 <- c('grey80', 'grey70')
 fill.cols.68 <- c('grey60', 'grey45')
 
-pdf(
-  '../Results/Figures/Fig4-Hindcasts_d13C_monophasic.pdf',
-  height = 4,
-  width = 3
+tiff('../Results/Figures/Fig4-Hindcasts_d13C_monophasic.tiff',
+     height = 100,
+     width = 75,
+     units = 'mm',
+     res = 600
 )
+
+
 par(
   mfcol = c(2, 1),
   cex = 0.8,

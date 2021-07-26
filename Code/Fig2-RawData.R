@@ -17,7 +17,9 @@ tiff('../Results/Figures/Fig2-RawData.tiff',
      height = 120,
      width = 150,
      units = 'mm',
-     res = 600
+     res = 600,  
+     type = 'cairo',
+     compression = 'zip'
 )
 
 p<-layout(matrix(c(1, 2, 3, 4, 6, 5),

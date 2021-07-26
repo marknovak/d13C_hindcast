@@ -18,7 +18,9 @@ tiff('../Results/Figures/Fig1-Conceptual.tiff',
     height = 150,
     width = 80,
     units = 'mm',
-    res = 600
+    res = 600,
+    type = 'cairo',
+    compression = 'zip'
     )
 par(
   mfrow = c(3, 1),

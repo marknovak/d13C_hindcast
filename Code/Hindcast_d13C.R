@@ -114,7 +114,9 @@ tiff('../Results/Figures/Fig4-Hindcasts_d13C_monophasic.tiff',
      height = 100,
      width = 75,
      units = 'mm',
-     res = 600
+     res = 600,  
+     type = 'cairo',
+     compression = 'zip'
 )
 
 

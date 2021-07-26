@@ -115,7 +115,9 @@ tiff('../Results/Figures/Fig3_alt-Forecasts_d13C_monophasic.tiff',
      height = 100,
      width = 75,
      units = 'mm',
-     res = 600
+     res = 600,  
+     type = 'cairo',
+     compression = 'zip'
 )
 par(
   mfcol = c(2, 1),
@@ -207,7 +209,9 @@ tiff('../Results/Figures/Fig3-Forecasts_d13C_mono_and_biphasic.tiff',
      height = 100,
      width = 150,
      units = 'mm',
-     res = 600
+     res = 600,  
+     type = 'cairo',
+     compression = 'zip'
 )
 par(
   mfcol = c(2, 2),
